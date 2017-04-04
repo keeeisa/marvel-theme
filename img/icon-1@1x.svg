@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="25" viewBox="0 0 17 25">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 28px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Ionicons;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <text id="icon" class="cls-1" x="9.001" y="23.006"><tspan x="9.001"></tspan></text>
+</svg>

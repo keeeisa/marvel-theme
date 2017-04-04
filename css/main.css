@@ -1,0 +1,132 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family:"Lato",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"Montserrat", sans-serif;
+  text-transform: uppercase;
+  color:#444;
+}
+p{
+  color:#757575;
+}
+.wrapper{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.header{
+  background-color: #fcfcfc;
+  position:relative;
+  height:100vh;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  overflow:hidden;
+}
+.header-punchline{
+  font-size:375%;
+  /*font-weight:900;*/
+  position:relative;
+  z-index:10;
+  line-height:120%;
+}
+.header-punchline::before{
+  content:url('../img/circle-header.svg');
+  position:absolute;
+  z-index:-1;
+  top: -20px;
+  left: -30px;
+}
+.header-col-left{
+  width:56%;
+  z-index:10;
+  /*height:100vh;*/
+}
+.header-circle-small, .header-circle-large, .header-man{
+  position:absolute;
+  right:0;
+}
+.header-man{
+  right:0%;
+  height:100vh;
+}
+.header-circle-large{
+  width:40%;
+  right:-3%;
+}
+.header-circle-small{
+  right:37%;
+  top:70%;
+}
+.header-cta{
+  border:1px solid #444;
+  text-transform: uppercase;
+  text-decoration: none;
+  color:#444;
+  font-family: "montserrat",sans-serif;
+  font-weight:500;
+  padding:20px 35px;
+  margin-top:40px;
+}
+.header-cta:hover{
+  border:1px solid #444;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color:#444;
+  color:#fff;
+  font-family: "montserrat",sans-serif;
+  font-weight:500;
+  padding:20px 35px;
+  margin-top:40px;
+}
+.header-p{
+  margin-bottom:50px;
+}
+.slider-buttons{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+      -ms-flex-direction:row;
+          flex-direction:row;
+  margin-top:60px;
+}
+.header-slider-button{
+  width:22px;
+  height:4px;
+  background-color: #e3e3e3;
+  margin-right:4px;
+}
+.header-slider-button-active{
+  width:22px;
+  height:4px;
+  background-color: #444;
+  margin-right:4px;
+}
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
