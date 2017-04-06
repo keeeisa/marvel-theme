@@ -159,9 +159,15 @@ p{
 .nav-items a:hover{
   color:#ffe400;
 }
+.logo{
+  margin-top: 6px;
+}
 /* ==========================================================================
    About
    ========================================================================== */
+.about{
+  position:relative;
+}
 .about-wrapper{
   max-width: 1170px;
   padding: 0 15px;
@@ -206,7 +212,7 @@ p{
   line-height: 1.7;
 }
 .about-buttons{
-  margin-top:50px;
+  margin-top:70px;
 }
 .about-buttons .btn-dark{
   background-color: #444;
@@ -226,7 +232,7 @@ p{
   font-family: "montserrat",sans-serif;
   font-weight: 500;
   padding: 20px 35px;
-  margin-top: 40px;
+  /*margin-top: 70px;*/
 }
 .about-features{
   display:flex;
@@ -250,7 +256,44 @@ p{
   font-size: 24px;
   font-weight:500;
   padding-top:20px;
+  text-align:center;
 }
 .feature-col img{
   padding-top:50px;
+}
+.about-wrapper h3.center{
+  font-size:30px;
+  margin-top: 140px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.about-wrapper span{
+  font-size:46px;
+  font-weight:800;
+  font-family:'Montserrat', sans-serif;
+  color:#444;
+}
+.numbers{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  width:100%;
+  margin-top: 90px;
+  margin-bottom: 140px;
+}
+.number-col{
+  padding: 0 15px;
+}
+.number-col p{
+ font-size:13px;
+ margin-top:0;
+ /*text-align: center;*/
+ padding-left: 3%;
+}
+.about-circle-large{
+  position:absolute;
+  width:45%;
+  left:-20%;
+  top:17%;
+  z-index:-1;
 }
