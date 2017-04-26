@@ -297,3 +297,24 @@ p{
   top:17%;
   z-index:-1;
 }
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+#responsive.grey {
+  border-top:1px solid rgba(214, 214, 214, .5);
+  background-color: rgb(250, 250, 250);
+  /*height:900px;*/
+}
+ul{
+  list-style:none;
+  padding-left:0;
+  color:#757575;
+  line-height:2;
+}
+
+li:before{
+  content:url('../img/bullet.svg');
+  width:14px;
+  display:inline-block;
+  padding-right: 7px;
+}
